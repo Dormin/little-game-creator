@@ -1,0 +1,16 @@
+body {
+	margin: 0px;
+	background: #568;
+}
+
+div {
+	display: flex;
+}
+
+#page-container {
+	margin: 24px auto;
+	width: 360px;
+	height: 480px;
+	background: #FFF;
+	box-shadow: 6px 6px rgba(0,0,0,0.2);
+}
