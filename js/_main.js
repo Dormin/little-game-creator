@@ -1,3 +1,4 @@
 function _main() { "use strict"
-	console.log("Hej!")
+	var container = document.getElementById("page-container")
+	container.append(ui.LevelListEditor())
 }

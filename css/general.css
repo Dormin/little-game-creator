@@ -14,3 +14,15 @@ div {
 	background: #FFF;
 	box-shadow: 6px 6px rgba(0,0,0,0.2);
 }
+
+.hbox, .vbox {
+	flex-grow: 1;
+}
+
+.hbox {
+	flex-direction: row;
+}
+
+.vbox {
+	flex-direction: column;
+}
