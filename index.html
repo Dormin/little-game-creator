@@ -2,9 +2,24 @@
 <html>
 	<head>
 		<title>Little Game Creator</title>
+
+		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="css/general.css">
-		<script>var ui = {}</script>
+
+		<!-- Namespaces -->
+		<script>
+			var model = {}
+			var ui = {}
+		</script>
+
+		<!-- Entry point -->
 		<script src="js/_main.js"></script>
+
+		<!-- Model classes -->
+		<script src="js/model/game.js"></script>
+		<script src="js/model/level-list.js"></script>
+
+		<!-- Ui classes -->
 		<script src="js/ui/div.js"></script>
 		<script src="js/ui/element.js"></script>
 		<script src="js/ui/hbox.js"></script>
